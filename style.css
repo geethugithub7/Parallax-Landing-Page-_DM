@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    position: absolute;
+    top:15px;
+    text-align: right;
+    width: 90%;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right:50px ;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s ease-in-out;
+}
+header a:hover{
+    color: black;
+}
+main{
+    background-image: url(image/Large.jpg); 
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+main h1{
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    mix-blend-mode: overlay; /*Blend words*/
+}
+
+
+
+
+
+
+
